@@ -4,7 +4,7 @@
   <text>您的理财专家</text>
 
   <view class="tab_view">
-    <view class="touzi" style="margin-left: 30px;">我要投资</view>
+    <view class="touzi" style="margin-left: 30px;"><navigator url="../investment/investment">我要投资</navigator></view>
     <view class="touzi" style="margin-right: 30px;">投资日志</view>
   </view>
 </view>
