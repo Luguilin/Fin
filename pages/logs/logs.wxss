@@ -1,0 +1,5 @@
+.log{
+  margin-top: 200px;
+  font-size: 45px;
+  text-align: center;
+}

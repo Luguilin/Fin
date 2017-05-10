@@ -1,0 +1,22 @@
+{
+"tabBar": {
+  "color": "#000000",
+  "selectedColor": "#3cc51f",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/tabBar/tabBar_essence_icon.png",
+      "selectedIconPath": "images/tabBar/tabBar_essence_click_icon.png",
+      "text": "我要投资"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "images/tabBar/tabBar_new_icon.png",
+      "selectedIconPath": "images/tabBar/tabBar_new_click_icon.png",
+      "text": "投资日志"
+    }
+  ]
+}
+}

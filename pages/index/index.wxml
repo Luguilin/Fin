@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <text style="font-size: 2.2em;margin-bottom: 34px;margin-top:30px;">Fin宝智投</text>
+  <text>您的理财专家</text>
+
+  <view class="tab_view">
+    <view class="touzi" style="margin-left: 30px;">我要投资</view>
+    <view class="touzi" style="margin-right: 30px;">投资日志</view>
+  </view>
+</view>
