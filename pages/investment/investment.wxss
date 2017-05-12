@@ -2,26 +2,61 @@
 Page{
     background-color: #483454;
 }
-.group_view{
+.swiper_group_view{
   width: 100%;
   height: 500rpx;
+  display: flex;
+  align-items: center;
+  
 }
+
+
 .ask{
   display: block;
-  font-size: 1.8em;
+  font-size: 2.2em;
   color: white;
   width: 100%;
   text-align: center;
   margin-top: 150rpx;
 }
-.sub_btn{
-  margin: 50rpx;
-}
+
 .item_view{
   display: flex;
-  height: 100%;
-  width: 100%;
   flex-direction: row;
+  height: 100%;
   justify-content: space-around;
   align-items: center;
 }
+
+.balance{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.balance_text{
+  color: white;
+  text-align: center;
+  margin: 60rpx;
+  margin-top: 100rpx;
+  display: block;
+}
+.one_balance{
+  margin-top: 150rpx;
+}
+.input{
+    background-color: #50495a;
+    border: 1rpx solid #605864;
+    border-radius: 10rpx;
+    width: auto;
+    height: 80rpx;
+}
+
+
+
+.sub_btn{
+  margin: 50rpx;
+}
+

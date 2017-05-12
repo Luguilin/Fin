@@ -1,0 +1,48 @@
+<!--analysis.wxml-->
+<text>analysis.wxml</text>
+<view class="view_group">
+  <text class="item_title">投资人专属分析报告</text>
+  <view class="linarlayout">
+    <view class="name"><text class="balck_font">客户：</text>{{name}}</view>
+    <view class="name"><text class="balck_font">近期投标：</text>{{recent_tender}}个</view>
+    <view class="name"><text class="balck_font">近期资金：</text>￥{{recent_maney}}</view>
+  </view>
+  <view style="background: lightgray;margin: 10px;height: 2px;"></view>
+  
+  <view class="linarlayout_right">
+    <view class="name"><text class="balck_font">投资风格：</text>{{name}}</view>
+  </view>
+  <view class="linarlayout_right">
+    <view class="name"><text class="balck_font">投资期限：</text>{{name}}</view>
+  </view>
+  <view class="linarlayout_right">
+    <view class="name"><text class="balck_font">投资金额：</text>{{name}}</view>
+  </view>
+  <view class="linarlayout_right">
+    <view class="name"><text class="balck_font">预计综合年化收益率：</text>{{name}}</view>
+  </view>
+
+<view style="background: lightgray;margin: 10px;height: 2px;"></view>
+
+<view class="recommend">
+  <view class="recommend_text">
+    <view class="linarlayout_right">
+      <view class="name"><text class="balck_font">投资风格：</text>{{name}}</view>
+    </view>
+    <view class="linarlayout_right">
+      <view class="name"><text class="balck_font">投资期限：</text>{{name}}</view>
+    </view>
+    <view class="linarlayout_right">
+      <view class="name"><text class="balck_font">投资金额：</text>{{name}}</view>
+    </view>
+    <view class="linarlayout_right">
+      <view class="name"><text class="balck_font">预计综合年化收益率：</text>{{name}}</view>
+    </view>
+  </view>
+
+  <view class="chart">
+      <canvas canvas-id="radarCanvas" class="canvas"  bindtouchstart="touchHandler"></canvas>
+  </view>
+</view>
+
+</view>

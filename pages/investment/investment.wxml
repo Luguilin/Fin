@@ -1,20 +1,44 @@
 <!--investment.wxml-->
 <view class="group_view1">
   <progress percent="{{progress}}" show-info color="green" style="margin-top: 100rpx; color:white;"/>
-  <text class="ask">{{ask_text}}</text>
-    <swiper class="group_view" indicator-dots="true" duration="500"  active current="{{current}}" bindchange="EventHandle">
-      <block wx:for="{{asks}}" wx:for-index="idx" wx:for-item="itemName" wx:key="*this">
-        <swiper-item>
-              <view class="item_view">
-                <radio-group  class="item_view" bindtap="aaa">
-                  <label class="text_white"><radio  value="value1" checked="{{itemName[0].checked}}" />{{itemName[0].text}}</label>
-                  <label class="check_box_lable text_white"><radio  value="value2" checked="{{itemName[1].checked}}" />{{itemName[1].text}}</label>
-                </radio-group>
-              </view>
-        </swiper-item>
-      </block>
+  <text class="ask">{{current_sak}}</text>
+    <swiper class="swiper_group_view" indicator-dots="true" duration="500"  active current="{{current}}" bindchange="EventHandle">
+
+      <swiper-item>
+        <radio-group  class="item_view">
+          <label class="text_white"><radio  value="value1" />低风险</label>
+          <label class="text_white"><radio  value="value1" />中风险</label>
+          <label class="text_white"><radio  value="value2"/>高风险</label>
+        </radio-group>
+      </swiper-item>
+
+    <swiper-item>
+        <radio-group  class="item_view">
+          <label class="text_white"><radio  value="value1" />无偏好</label>
+          <label class="text_white"><radio  value="value2"/>长期投资</label>
+          <label class="text_white"><radio  value="value2"/>快速收益</label>
+        </radio-group>
+      </swiper-item>
+
+
+      <swiper-item>
+        <view>
+          <text class="balance_text">显示用户可投金额 ¥{{balance}}</text>
+          <view class="balance">
+            <text>意向投资金额:</text><input class="input" type="digit" placeholder="请输入"/>
+          </view>
+        </view>
+      </swiper-item>
+
+      <swiper-item>
+        <view>
+          <view class="balance one_balance">
+            <text>单笔投资金额:</text><input class="input" type="digit" placeholder="请输入"/>
+          </view>
+        </view>
+      </swiper-item>
     </swiper>
-    <button class="sub_btn" form-form-type="submit" type="primary" wx:if="{{btn_visibel}}">确定</button>
-  
+
+   <button class="sub_btn" form-form-type="submit" type="primary" wx:if="{{btn_visibel}}">确定</button>
 </view>
 

@@ -1,0 +1,37 @@
+/* analysis.wxss */
+.balck_font{
+  color: black;
+  font-weight:bold;
+}
+.linarlayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.8em;
+}
+
+.linarlayout_right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 15rpx;
+  font-size: 0.8em;
+}
+
+.recommend{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.recommend_text{
+  width: 50%;
+  background: gray;
+}
+.canvas{
+  width: 150rpx;
+}
+
+/*.chart{
+  background: gray;
+  width: 50%;
+}*/

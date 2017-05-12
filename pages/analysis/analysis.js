@@ -1,26 +1,20 @@
-// investment.js
+// analysis.js
+
+var wxCharts = require('../../utils/wxcharts.js');
+var app = getApp();
+var radarChart = null;
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    progress:25,
-    btn_visibel: false,
-    balance:10000,
-    asks: [
-      { ask_str: "风险承受能力" }, { ask_str: "投资期限" }, { ask_str: "意向投入的金额" }, { ask_str: "最后一个问题" }
-    ],
-    current_sak: "风险承受能力",
-    current :0,
+    name:"小白",
+    recent_tender:10,
+    recent_maney:50000
   },
-  EventHandle: function (event){
-    this.setData({
-      progress: (100 / 4) * (event.detail.current + 1),
-      current_sak: this.data.asks[event.detail.current].ask_str,
-      btn_visibel: (event.detail.current + 1) == 4 ? true : false
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -32,7 +26,30 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+    var windowWidth = 320;
+    try {
+      var res = wx.getSystemInfoSync();
+      windowWidth = res.windowWidth;
+    } catch (e) {
+      console.error('getSystemInfoSync failed!');
+    }
+
+    radarChart = new wxCharts({
+      canvasId: 'radarCanvas',
+      type: 'radar',
+      categories: ['1', '2', '3', '4', '5', '6'],
+      series: [{
+        name: '成交量1',
+        data: [90, 110, 125, 95, 87, 122]
+      }],
+      width: windowWidth,
+      height: 200,
+      extra: {
+        radar: {
+          max: 150
+        }
+      }
+    });
   },
 
   /**
