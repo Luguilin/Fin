@@ -1,0 +1,17 @@
+<!--gathering.wxml-->
+<view class="title_view">
+  <text  style="width: 30%;">还款日</text>
+  <text style="width: 30%;text-align: center;">待还本息</text>
+  <text style="width: 30%;text-align: right;">状态</text>
+</view>
+
+
+<scroll-view scroll-y="true" style="height: {{scroll_height}}px;">
+  <block wx:for="{{logs}}" wx:for-index="idx" wx:for-item="itemName" wx:key="*this">
+    <view class="item_view">
+      <text style="width: 30%;">2017.06.15</text>
+      <text style="width: 30%;text-align: center;">4.44</text>
+      <text style="width: 30%;text-align: right;color: cornflowerblue;">待还</text>
+    </view>
+  </block>
+</scroll-view>

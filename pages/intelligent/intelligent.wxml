@@ -1,0 +1,48 @@
+<!--intelligent.wxml-->
+
+<view style="line-height: 35px;margin: 10px;border-bottom: 1px solid lightgray;font-weight: bold;">Fin宝智投策略方案</view>
+
+<view style="font-weight: bold;border-bottom: 1px solid gray;padding-left: 10px;">散标投资</view>
+<scroll-view scroll-y="true">
+  <block wx:for="{{scatter}}"wx:for-index="idx"  wx:for-item="itemName" wx:key="i">
+    <navigator url="../detail/detail?title=navigate" ><view class="item_title">
+    <text >手机APP用户的第四次闪电借款</text><text style="margin-right:20px;">></text>
+    </view></navigator>
+    <view style="width: 100%;background: #eeeeee;height: 1px;"></view>
+    <view class="log">
+      <view class="log_item"><view >应收本息</view><view style="color: orange;">53.3</view></view>
+      <view class="classname"><view class="classname">年化率</view><view class="classname">12.00%</view></view>
+      
+      <view class="classname"><view class="classname">借出本金</view><view class="classname">50.00</view></view>
+      <checkbox value="value"/>
+    </view>
+    <view style="width: 100%;background: #eeeeee;height: 5px;"></view>
+  </block>
+</scroll-view>
+
+<view style="font-weight: bold;border-bottom: 1px solid gray;padding-left: 10px;line-height: 40px;">组合投资</view>
+<scroll-view scroll-y="true">
+  <block wx:for="{{group}}"wx:for-index="idx"  wx:for-item="itemName" wx:key="i">
+    <navigator url="../detail/detail?title=navigate" ><view class="item_title">
+    <text >彩虹计划</text><text style="margin-right:20px;">></text>
+    </view></navigator>
+    <view style="width: 100%;background: #eeeeee;height: 1px;"></view>
+    <view class="log">
+      <view class="log_item"><view >应收本息</view><view style="color: orange;">53.3</view></view>
+      <view class="classname"><view class="classname">年化率</view><view class="classname">12.00%</view></view>
+      
+      <view class="classname"><view class="classname">借出本金</view><view class="classname">50.00</view></view>
+      <checkbox value="value"/>
+    </view>
+    <view style="width: 100%;background: #eeeeee;height: 5px;"></view>
+  </block>
+</scroll-view>
+<view class="group_button">
+  <button size="mini" type="primary">确定投资</button>
+  <button size="mini">取消投资</button>
+</view>
+
+
+
+
+

@@ -1453,7 +1453,7 @@ function drawRadarDataPoints(series, opts, config, context) {
     var radarOption = opts.extra.radar || {};
     var coordinateAngle = getRadarCoordinateSeries(opts.categories.length);
     var centerPosition = {
-        x: opts.width / 2,
+        x: opts.width / 4,
         y: (opts.height - config.legendHeight) / 2
     };
 

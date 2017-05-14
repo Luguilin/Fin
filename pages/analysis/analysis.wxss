@@ -1,7 +1,16 @@
 /* analysis.wxss */
+Page{
+  margin-top: 100rpx;
+}
 .balck_font{
   color: black;
   font-weight:bold;
+}
+.item_title{
+  color: orangered;
+  font-weight: bold;
+  padding: 15rpx;
+  display: block;
 }
 .linarlayout{
   display: flex;
@@ -20,15 +29,19 @@
 
 .recommend{
   display: flex;
+  
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .recommend_text{
-  width: 50%;
-  background: gray;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  width: 55%;
 }
 .canvas{
-  width: 150rpx;
+ width: 350rpx;
 }
 
 /*.chart{

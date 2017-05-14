@@ -1,0 +1,50 @@
+/* detail.wxss */
+
+.title-view {
+  height: 240rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-item {
+  width: 30%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  
+  
+}
+.principal-interest{
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  
+  line-height: 25rpx;
+  border-bottom: 10rpx solid lightgray;
+  border-top: 1rpx solid lightgray;
+  padding: 25rpx;
+}
+.principal-group{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  line-height:45rpx;
+  border-bottom: 5px solid lightgray;
+}
+.principal-item{
+  width: 50%;
+}
+.principal-log{
+  display: flex;
+  justify-content: flex-start;
+}
+.submit{
+  background: darkorange;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 10px;
+}

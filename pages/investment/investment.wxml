@@ -39,6 +39,6 @@
       </swiper-item>
     </swiper>
 
-   <button class="sub_btn" form-form-type="submit" type="primary" wx:if="{{btn_visibel}}">确定</button>
+   <button class="sub_btn" form-form-type="submit" type="primary" wx:if="{{btn_visibel}}" bindtap="ok">确定</button>
 </view>
 

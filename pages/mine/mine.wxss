@@ -1,0 +1,108 @@
+/* mine.wxss */
+
+.face {
+  display: flex;
+  flex-direction: row;
+  background: #483454;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 88rpx;
+  height: 88rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  margin-left: 50rpx;
+}
+
+.user-name {
+  color: white;
+  vertical-align: middle;
+}
+
+.proceeds-title {
+  margin: 10rpx;
+  margin-left: 20rpx;
+  color: black;
+}
+
+.proceeds {
+  display: flex;
+  flex-direction: column;
+  padding-left: 210rpx;
+  align-items: flex-start;
+}
+
+.line_gray {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+
+.line {
+  height: 2rpx;
+  background: gray;
+  width: 150rpx;
+}
+
+.project-item {
+  display: flex;
+  margin-top: 20rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iamge-view {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 50%;
+}
+
+.image {
+  width: 80%;
+  height: 300rpx;
+  background: gray;
+}
+
+.image2 {
+  width: 100%;
+  height: 300rpx;
+  background: gray;
+}
+
+.item_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80rpx;
+  width: 100%;
+  align-items: center;
+}
+
+.log {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+  font-size: 0.8em;
+  line-height: 25px;
+}
+
+.log_item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.continue_btn {
+  display: block;
+  line-height: 45px;
+  color: dodgerblue;
+  text-align: center;
+  
+  border-top:1px solid lightgray
+}

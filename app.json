@@ -1,8 +1,13 @@
 {
   "pages": [
-    "pages/analysis/analysis",
-    "pages/investment/investment",
     "pages/index/index",
+    "pages/detail/detail",
+    "pages/intelligent/intelligent",
+    "pages/analysis/analysis",
+    "pages/mine/mine",
+    "pages/gathering/gathering",
+    
+    "pages/investment/investment",
     "pages/login/login",
     "pages/logs/logs"
   ],

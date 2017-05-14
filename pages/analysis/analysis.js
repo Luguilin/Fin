@@ -27,12 +27,12 @@ Page({
    */
   onReady: function () {
     var windowWidth = 320;
-    try {
-      var res = wx.getSystemInfoSync();
-      windowWidth = res.windowWidth;
-    } catch (e) {
-      console.error('getSystemInfoSync failed!');
-    }
+    // try {
+    //   var res = wx.getSystemInfoSync();
+    //   windowWidth = res.windowWidth;
+    // } catch (e) {
+    //   console.error('getSystemInfoSync failed!');
+    // }
 
     radarChart = new wxCharts({
       canvasId: 'radarCanvas',

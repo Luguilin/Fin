@@ -1,0 +1,65 @@
+<!--detail.wxml-->
+
+<scroll-view scroll-y="true" style="height: {{scroll_height}}px;">
+<view style="background: cornflowerblue;">
+  <view class="title-view">
+    <view class="title-item">
+      <view style="font-size: 0.7em;">利率</view>
+      <view style="font-size: 1.8em;">18%</view>
+    </view>
+    <view class="title-item">
+      <view style="font-size: 0.7em;">投资期限</view>
+      <view ><text style="font-size: 1.8em;">12</text><text style="font-size: 0.7em;">个月</text></view>
+    </view>
+    <view class="title-item">
+      <view style="font-size: 0.7em;">等级</view>
+      <view style="font-size: 1.8em;">B</view>
+    </view>
+  </view>
+  <view style="text-align: right;color: white;margin-right: 10px;font-size: 0.7em;">ID456789</view>
+</view>
+<view><text style="color:black;font-size: 14px;font-weight: bold;">剩余金额:548元</text><text style="font-size: 0.7em;color:gray;">（总金额4567元）</text></view>
+<progress style="padding: 10px;" percent="20" activeColor="orange" show-info stroke-width="3"/>
+<view class="principal-interest">
+ <text>等额本息（按月还款）</text><text>已经有5人投标></text>
+</view>
+<view style="padding:10px;"><text style="font-weight: bold;color: orange;line-height: 2px;">|</text><text style="font-weight: bold;font-size: 15px;">借款人信息</text></view>
+<view class="principal-group">
+  <view class="principal-item">
+    <view>性别：<text>女</text></view>
+    <view>文化程度：<text>本科</text></view>
+    <view>毕业学校：<text>无</text></view>
+    <view>注册时间：<text>2017.02.01</text></view>
+  </view>
+  <view class="principal-item">
+    <view>年龄：<text>24</text></view>
+    <view>学习方式：<text>无</text></view>
+  </view>
+</view>
+
+
+<view style="padding:10px;"><text style="font-weight: bold;color: orange;line-height: 2px;">|</text><text style="font-weight: bold;font-size: 15px;">审核认证</text></view>
+<view class="principal-group">
+  <view class="principal-item">
+    <view>身份证认证：<icon type="success" size="12"/></view>
+  </view>
+  <view class="principal-item">
+    <view>手机认证：<icon type="success" size="12"/></view>
+  </view>
+</view>
+
+<view style="padding:10px;"><text style="font-weight: bold;color: orange;line-height: 2px;">|</text><text style="font-weight: bold;font-size: 15px;">信用记录</text></view>
+<view class="principal-group">
+  <view>
+    <view>首次成功借款：<text>2017.2.12</text></view>
+    <view>借款记录：<text>3次成功，0次流标，0次失败，0次撤标</text></view>
+    <view>累计借款：<text>55555.00元</text></view>
+    <view>待还金额：<text>333.33元</text></view>
+    <view>待收金额：<text>0.00元</text></view>
+    <view class="principal-log"><text>还款记录：</text><text style="display: block;">14次成功还款\n14次正常还清\n0次逾期（1-15天还清）\n0次逾期（15天以上还清）</text></view>
+    <view>历史单笔最高借入：<text>3500.00元</text></view>
+    <view>历史最高负债：<text>4500.00元</text><icon type="info" size="12" color="gray"/></view>
+  </view>
+</view>
+</scroll-view>
+<view class="submit">立即投标</view>

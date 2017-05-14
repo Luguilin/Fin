@@ -1,5 +1,4 @@
 <!--analysis.wxml-->
-<text>analysis.wxml</text>
 <view class="view_group">
   <text class="item_title">投资人专属分析报告</text>
   <view class="linarlayout">
@@ -10,39 +9,46 @@
   <view style="background: lightgray;margin: 10px;height: 2px;"></view>
   
   <view class="linarlayout_right">
-    <view class="name"><text class="balck_font">投资风格：</text>{{name}}</view>
+    <view class="name"><text class="balck_font">投资风格：</text>稳健型投资手</view>
   </view>
   <view class="linarlayout_right">
-    <view class="name"><text class="balck_font">投资期限：</text>{{name}}</view>
+    <view class="name"><text class="balck_font">投资期限：</text>长线型投资选手</view>
   </view>
   <view class="linarlayout_right">
-    <view class="name"><text class="balck_font">投资金额：</text>{{name}}</view>
+    <view class="name"><text class="balck_font">投资金额：</text>￥50000   哇塞，有钱淫</view>
   </view>
   <view class="linarlayout_right">
-    <view class="name"><text class="balck_font">预计综合年化收益率：</text>{{name}}</view>
+    <view class="name"><text class="balck_font">预计综合年化收益率：</text>8-12%</view>
   </view>
 
+<text class="item_title">投资人专属分析报告</text>
 <view style="background: lightgray;margin: 10px;height: 2px;"></view>
-
 <view class="recommend">
   <view class="recommend_text">
     <view class="linarlayout_right">
-      <view class="name"><text class="balck_font">投资风格：</text>{{name}}</view>
+      <view class="name"><text class="balck_font">AAA标：</text>50%</view>
     </view>
     <view class="linarlayout_right">
-      <view class="name"><text class="balck_font">投资期限：</text>{{name}}</view>
+      <view class="name"><text class="balck_font">AA标：</text>30%</view>
     </view>
     <view class="linarlayout_right">
-      <view class="name"><text class="balck_font">投资金额：</text>{{name}}</view>
+      <view class="name"><text class="balck_font">A标：</text>20%</view>
     </view>
     <view class="linarlayout_right">
-      <view class="name"><text class="balck_font">预计综合年化收益率：</text>{{name}}</view>
+      <view class="name"><text class="balck_font">B标：</text>10%</view>
     </view>
   </view>
 
   <view class="chart">
       <canvas canvas-id="radarCanvas" class="canvas"  bindtouchstart="touchHandler"></canvas>
   </view>
+  
 </view>
-
+ <view class="linarlayout_right">
+   <view class="name"><text class="balck_font">预计综合年化收益率：</text>14.3%</view>
+ </view>
+ <view class="linarlayout_right">
+   <view class="name"><text class="balck_font">预计到期收益：</text>￥399.89</view>
+ </view>
+ <navigator url="../intelligent/intelligent?title=navigate" ><view class="item_title"style="text-align: right;">》查看组合标的情况</view></navigator>
 </view>

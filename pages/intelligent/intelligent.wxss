@@ -1,0 +1,29 @@
+/* intelligent.wxss */
+Page{
+  font-size: 0.8em;
+}
+
+.item_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 40px;
+  
+  padding-left: 10px;
+  width: 100%;
+  align-items: center;
+}
+.log {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+  font-size: 0.8em;
+  align-items: center;
+  line-height: 25px;
+}
+.group_button{
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}

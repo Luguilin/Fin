@@ -1,0 +1,23 @@
+/* gathering.wxss */
+Page{
+  font-size: 0.8em;
+}
+
+.title_view{
+  height: 35px;
+  border-bottom:1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.item_view{
+  height: 45px;
+  border-bottom:1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
